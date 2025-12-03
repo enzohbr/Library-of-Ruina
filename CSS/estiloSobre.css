@@ -1,0 +1,26 @@
+#Sobreojogo {
+    background: rgb(255, 255, 255, 0.78);
+    padding: 30px 50px;
+    border-radius: 15px;
+    text-align: left;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 2%;
+    display: flex;
+    /* coloca texto e imagem lado a lado */
+    justify-content: space-between;
+    /* cria espaço entre eles */
+    align-items: flex-start;
+    /* alinha pelo topo */
+    gap:60px;
+    font-size: 100%;
+}
+
+#Logo {
+    margin-top: 4%;
+    border-radius: 10% 5%;
+}
+
+#Quarto {
+    margin-top: 8%;
+    border-radius: 10% 5%;
+}

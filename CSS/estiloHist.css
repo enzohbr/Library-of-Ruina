@@ -1,0 +1,28 @@
+#História {
+    background: rgb(255, 255, 255, 0.78);
+    padding: 30px 50px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 2%;
+    display: flex;
+    /* coloca texto e imagem lado a lado */
+    justify-content: space-between;
+    /* cria espaço entre eles */
+    align-items: flex-start;
+    /* alinha pelo topo */
+    gap: 4%;
+    font-size: 100%;
+}
+
+#História h2{
+    text-align: center;
+    margin-top: 1%;
+    font-size: 150%;
+}
+
+#IMG-Hist{
+    width: 100%;
+    margin-top: 1%;
+    border-radius: 3% 5%;
+}

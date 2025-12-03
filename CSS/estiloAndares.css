@@ -1,0 +1,142 @@
+#Andares {
+    background: rgb(255, 255, 255, 0.78);
+    padding: 50px;
+    border-radius: 15px;
+    text-align: left;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 2%;
+    font-size: 100%;
+}
+
+.andares-space-h2{
+    margin-left: 3%;
+}
+
+/* Classe que faz as imagens ficarem lado a lado 
+=============================== */
+.posicao-imagem {
+    border-radius: 35px;
+    margin-right: 20px;
+}
+
+/* Malkuth estile set
+=============================== */
+#Titulo-Malkuth{
+    margin-top: 3%;
+    margin-bottom: -0.1%;
+    font-size: 120%;
+}
+
+.Malkuth{
+    border-radius: 50px;
+    /* coloca texto e imagem lado a lado */
+    display: flex;
+    /* cria espaço entre eles */
+    justify-content: space-between;
+    /* alinha pelo topo */
+    align-items: flex-start;
+}
+
+.Malkuth-topics{
+    width: 80%;
+}
+
+.Malkuth-text-2{
+    margin-top: 0.2%;
+}
+
+.Malkuth-text-3{
+    margin-top: 0.2%;
+}
+
+/* Yesod estile set
+=============================== */
+.Yesod{
+    margin-top: 20px;
+    display: flex;
+    /* coloca texto e imagem lado a lado */
+    justify-content: space-between;
+    /* cria espaço entre eles */
+    align-items: flex-start;
+    /* alinha pelo topo */
+}
+
+#Titulo-Yesod{
+    margin-bottom: -1.4%;
+    font-size: 120%;
+}
+
+.Yesod-topics{
+    width: 80%;
+}
+
+.Yesod-text-2{
+    margin-top: 0.2%;
+}
+
+.Yesod-text-3{
+    margin-top: 0.2%;
+}
+
+
+/* Hod estile set
+=============================== */
+.Hod{
+    margin-top: 20px;
+    display: flex;
+    /* coloca texto e imagem lado a lado */
+    justify-content: space-between;
+    /* cria espaço entre eles */
+    align-items: flex-start;
+    /* alinha pelo topo */
+    gap:60px;
+}
+
+#Titulo-Hod{
+    margin-top: 3%;
+    margin-bottom: -1.4%;
+    font-size: 120%;
+}
+
+.Hod-topics{
+    width: 80%;
+}
+
+.Hod-text-2{
+    margin-top: 0.2%;
+}
+
+.Hod-text-3{
+    margin-top: 0.2%;
+}
+
+/* Netzach estile set
+=============================== */
+.Netzach{
+    margin-top: 20px;
+    display: flex;
+    /* coloca texto e imagem lado a lado */
+    justify-content: space-between;
+    /* cria espaço entre eles */
+    align-items: flex-start;
+    /* alinha pelo topo */
+    gap:60px;
+}
+
+#Titulo-Netzach{
+    margin-top: 3%;
+    margin-bottom: -1.4%;
+    font-size: 120%;
+}
+
+.Netzach-topics{
+    width: 80%;
+}
+
+.Netzach-text-2{
+    margin-top: 0.2%;
+}
+
+.Netzach-text-3{
+    margin-top: 0.2%;
+}

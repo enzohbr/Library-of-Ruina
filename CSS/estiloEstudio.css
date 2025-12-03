@@ -1,0 +1,89 @@
+/* Estilo da section Estudio 
+==================================== */
+#Estudio {
+    background: rgb(255, 255, 255, 0.78);
+    padding: 30px 50px;
+    border-radius: 15px;
+    text-align: left;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 2%;
+    font-size: 109%;
+}
+
+/* Div das informações sobre o estudio
+==================================== */
+.Inicio {
+    display: flex;
+    /* coloca texto e imagem lado a lado */
+    justify-content: space-between;
+    /* cria espaço entre eles */
+    align-items: flex-start;
+    /* alinha pelo topo */
+    gap: 5%;
+}
+
+
+/* Div 'Principais Jogos'
+==================================== */
+.Div-Flex {
+    display: flex;
+    /* coloca texto e imagem lado a lado */
+    justify-content: space-between;
+    /* cria espaço entre eles */
+    align-items: flex-start;
+    /* alinha pelo topo */
+    gap: 1%;
+    margin-top: 2%;
+    padding-right: 3%;
+}
+
+/* Espaçamento entre o título e 'Principais Jogos'
+==================================== */
+.principais-jogos-moon {
+    margin-left: 8%;
+}
+
+/* Espaçamento entre os textos
+==================================== */
+.space-between-historia-lobotomy {
+    margin-top: 7%;
+}
+
+.space-between-historia-library {
+    margin-top: 9%;
+}
+
+.space-between-historia-limbus {
+    margin-top: 9%;
+}
+
+.space-between-caracteristicas{
+    margin-top:10%;
+}
+
+/* Image Stile
+==================================== */
+#Moon {
+    border-radius: 50px;
+    margin-top: 27%;
+    margin-right: 60px;
+}
+
+.space-between-studio-img-jogos{
+    margin-left: 20%;
+}
+
+#Lobotomy {
+    border-radius: 100px;
+    margin-top: 30%;
+}
+
+#Library {
+    border-radius: 100px;
+    margin-top: 15%;
+}
+
+#Limbus {
+    border-radius: 100px;
+    margin-top: 15%;
+}

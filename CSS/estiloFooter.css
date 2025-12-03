@@ -1,0 +1,30 @@
+footer{
+    background: rgb(255, 255, 255, 0.78);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 1%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-header{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.78);
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 115%;
+    border-radius: 15px;
+    align-items: center;
+    margin: -100%;
+}
+
+.link-header:hover{
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+    background-color: rgba(0, 0, 0, 0.78);
+}
+
+.space-between-footer-link{
+    margin-top: 1%;
+}
